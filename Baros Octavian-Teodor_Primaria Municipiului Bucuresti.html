@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Primăria Municipiului București</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #4beed7;
+            padding: 50px 20px;
+            text-align: center;
+            color: white;
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+        nav {
+            background-color: #1c1c1c;
+            overflow: hidden;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            padding: 14px 30px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 600;
+        }
+        nav a:hover {
+            background-color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            font-size: 2rem;
+            color: #00aaff;
+            border-bottom: 2px solid #00aaff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+        }
+        .content-wrapper div {
+            flex: 1;
+        }
+        .media-gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .contact-form button {
+            background-color: #00aaff;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact-form button:hover {
+            background-color: #0077cc;
+        }
+        footer {
+            background-color: #1c1c1c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border-radius: 8px;
+            border: none;
+        }
+        .info-links ul {
+            list-style: none;
+            padding: 0;
+        }
+        .info-links ul li {
+            margin-bottom: 10px;
+        }
+        .info-links ul li a {
+            color: #00aaff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        .info-links ul li a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .content-wrapper {
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Primăria Municipiului București
+</header>
+
+<nav>
+    <a href="#info">Info Primărie</a>
+    <a href="#istoric">Istoric</a>
+    <a href="#gallery">Galerie Media</a>
+    <a href="#conducerea">Conducerea</a>
+    <a href="#informatii">Informații Publice</a>
+    <a href="#formular">Formular Web</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+    <section id="info" class="section">
+        <h2>Informații despre Primărie</h2>
+        <p>Primăria Municipiului București se află în centrul administrației locale și se ocupă de gestionarea orașului, de la servicii publice esențiale, infrastructură urbană, educație, până la dezvoltarea economică și protecția mediului. Misiunea primăriei este să creeze un oraș mai bun pentru locuitorii săi, prin politici publice eficiente și sustenabile.</p>
+    </section>
+
+    <section id="istoric" class="section">
+        <h2>Istoric</h2>
+        <p>Bucureștiul, capitala României, are o istorie fascinantă și complexă, care se întinde pe mai bine de 600 de ani. Prima mențiune documentară a orașului datează din 1459, în timpul domniei voievodului Vlad Țepeș, când Bucureștiul era deja un centru comercial important în Țara Românească. De-a lungul secolelor, orașul a evoluat și s-a transformat, fiind martor la numeroase evenimente istorice semnificative.
+
+În perioada medievală, Bucureștiul a fost ales ca reședință a domnitorilor Țării Românești, iar în secolul al XVII-lea și al XVIII-lea, orașul a devenit un important centru cultural și politic al regiunii Balcanilor. După unirea Principatelor Române în 1859, Bucureștiul a fost desemnat capitala noului stat român și a început să se modernizeze rapid, atrăgând influențe arhitecturale europene.
+
+Secolul XX a marcat o perioadă de transformări dramatice pentru București, cu două războaie mondiale și regimul comunist, care au lăsat urme adânci în peisajul urban. După 1989, orașul a cunoscut o perioadă de reconstrucție și dezvoltare rapidă, devenind un centru economic, cultural și social al României. Astăzi, Bucureștiul este un oraș vibrant, cu o combinație unică de tradiție și modernitate.</p>
+    </section>
+
+    <section id="gallery" class="section galerie-media">
+        <h2>Galerie Media</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Catedrala_M%C3%A2ntuirii_Neamului_%28Noiembrie_2022%29.jpg/800px-Catedrala_M%C3%A2ntuirii_Neamului_%28Noiembrie_2022%29.jpg" alt="Catedrala Mantuirii Neamului din Municipiul Bucuresti">
+        <img src="https://grand-hotel-continental-bucuresti.continentalhotels.ro/wp-content/uploads/sites/10/2020/09/16-9-palatul-parlamentului-98219420.jpg" alt="Palatul Parlamentului din municipiul București">
+    </section>
+
+    <section id="conducerea" class="section">
+        <h2>Conducerea Orașului București</h2>
+        <div class="content-wrapper">
+            <div>
+                <p><strong>Primar General:</strong> Nicusor Dan</p>
+                <p><strong>Viceprimar:</strong> Bujduveanu Stelian</p>
+            </div>
+            <div>
+                <p><strong>Consiliul General:</strong> Consiliul General al Municipiului București este compus din 55 de membri care contribuie activ la dezvoltarea orașului prin măsuri legislative locale.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="informatii" class="section">
+        <h2>Informații Publice</h2>
+        <div class="info-links">
+            <ul>
+                <li><a href="https://www.pmb.ro/executiv/organigrama/menu-page/declaratiile-de-avere-si-de-interese-ale-personalului-pmb-2024">Declarații de avere</a></li>
+                <li><a href="https://www2.pmb.ro/institutii/primaria/directii/directia_adm_publica/hot_cgmb_3_1.php">Hotărâri Consiliu General</a></li>
+                <li><a href="https://www.pmb.ro/consiliu/10">Consiliul General</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="formular" class="section">
+        <h2>Formular Web pentru Cetățeni</h2>
+        <form action="submit_form.php" method="post" class="contact-form">
+            <label for="nume">Nume:</label>
+            <input type="text" id="nume" name="nume" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mesaj">Mesaj:</label>
+            <textarea id="mesaj" name="mesaj" rows="4" required></textarea>
+
+            <button type="submit">Trimite</button>
+        </form>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <div class="content-wrapper">
+            <div>
+                <p><strong>Adresa:</strong> Str. Bulevardul Regina Elisabeta 47, București</p>
+                <p><strong>Telefon:</strong> (+4) 0747.077.778, (+4) 031.9898</p>
+                <p><strong>Email:</strong> relatiipublice@pmb.ro</p>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.104111521268!2d26.100222315674378!3d44.42676797910185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff3551b33f77%3A0x400c3a9a1a8ee60!2sBucure%C8%99ti!5e0!3m2!1sro!2sro!4v1610531080391!5m2!1sro!2sro" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2025 Primăria Municipiului București</p>
+</footer>
+
+</body>
+</html>
